@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.android.myappportfolio.NotifyingScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.myappportfolio.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image_header"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:src="@drawable/me_and_gundam" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient" />
+        </FrameLayout>
+
+
+        <TextView
+            android:fitsSystemWindows="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="My Nanodegree Apps!"
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="#2E3D49"
+            android:onClick="populatMoviesToast"
+            android:text="popular movies"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="#2E3D49"
+            android:onClick="stockHawkToast"
+            android:text="stock hawk"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="#2E3D49"
+            android:onClick="buildItBiggerToast"
+            android:text="build it bigger"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="#2E3D49"
+            android:onClick="makeYourAppToast"
+            android:text="make your app material"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="#2E3D49"
+            android:onClick="ubiquitousToast"
+            android:text="go ubiquitous"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:background="#2E3D49"
+            android:onClick="capstoneToast"
+            android:text="capstone"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+</com.example.android.myappportfolio.NotifyingScrollView>
